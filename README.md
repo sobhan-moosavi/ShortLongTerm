@@ -9,7 +9,7 @@ This repo contains all the codes and sample files for the "Short and Long-term P
 
 
 ## Requirements 
-The only requirement is ```Python```, version 2.7. 
+The only requirement is ```Python```, version 2.7 is recommended. 
 
 ## How to Run
 * __Extracting Short-term Patterns__:
