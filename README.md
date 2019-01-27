@@ -8,7 +8,7 @@ This repo contains all the codes and sample files for the "Short and Long-term P
 ## Long-term Pattern Discovery
 
 
-## Data Pre-processing
+## Data Pre-processing Steps
 
 
 ## Requirements 
