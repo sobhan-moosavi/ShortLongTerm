@@ -16,7 +16,14 @@ The only requirement is ```Python```, version 2.7 is recommended.
 
 
 ## How to Run
-* __Extracting Short-term Patterns__:
+* __Extracting Short-term Patterns__: there are multiple steps to extract short-term patterns as follows:
+  * __Removing Redundant Traffic Events__: 
+  * __Finding Child-Parent Relations__: 
+  * __Creating Sequences of Relations__: 
+  * __Extracting Tree Structures from Sequences__: 
+  * __Mining Frequent Tree Patterns__: 
+
+
 * __Extracting Long-term Patterns__:
 
 
