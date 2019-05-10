@@ -28,7 +28,7 @@ The only requirement is ```Python```, version 2.7 is recommended.
 
 
 ## Dataset
-A large-scale dataset of traffic and weather event data is used as input. Check [here](https://smoosavi.org/datasets/lstw) for the latest version of such a dataset. The data comes in form of a single CSV file. We ingest the same data as input to both short and long-term pattern discovery processes. 
+A large-scale dataset of traffic and weather event data is used as input. Check [here](https://smoosavi.org/datasets/lstw) for the latest version of such a dataset. The data comes in the form of a single CSV file. We ingest the same data as input to both short and long-term pattern discovery processes. 
 
 
 ## Sample Results
