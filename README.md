@@ -21,7 +21,7 @@ The only requirement is ```Python```, version 2.7 is recommended.
 
 
 ## Dataset
-A large-scale dataset of traffic and weather event data is used as input. Check [here](https://sobhan-moosavi.github.io/datasets/2019_traffic_weather_events) for the latest version of such a dataset.  
+A large-scale dataset of traffic and weather event data is used as input. Check [here](https://smoosavi.org/datasets/lstw) for the latest version of such a dataset.  
 
 
 ## Sample Results
