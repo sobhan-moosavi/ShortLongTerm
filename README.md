@@ -36,10 +36,12 @@ A large-scale dataset of traffic and weather event data is used as input. Check 
 ## Acknowledgments 
 * Moosavi, Sobhan, Mohammad Hossein Samavatian, Arnab Nandi, Srinivasan Parthasarathy, and Rajiv Ramnath. ["Short and Long-term Pattern Discovery Over Large-Scale Geo-Spatiotemporal Data."](https://arxiv.org/abs/1902.06792) Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining. ACM, 2019. 
 
-```@inproceedings{moosavi2019short,
+```
+@inproceedings{moosavi2019short,
   title={Short and Long-term Pattern Discovery Over Large-Scale Geo-Spatiotemporal Data},
   author={Moosavi, Sobhan and Samavatian, Mohammad Hossein and Nandi, Arnab and Parthasarathy, Srinivasan and Ramnath, Rajiv},
   booktitle={Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining},
   year={2019},
   organization={ACM}
-}```
+}
+```
