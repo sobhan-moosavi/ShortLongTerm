@@ -3,10 +3,10 @@ This repo contains all the codes and sample files for the "Short and Long-term P
 
 
 ## Short-term Pattern Discovery
-
+Short-term or propagation patterns are those which show the impact of geo-spatiotemporal entities/events on a sequential basis, where one entity can be propagated and cause other entities to happen. One example is a _rain_ event which causes a _traffic accident_, and the _accident_ causes _traffic congestion_. 
 
 ## Long-term Pattern Discovery
-
+Long-term or influential patters are those which show the impact of a temporally long geo-spatiotemporal entity on its spatial neighborhood. One example is a _major construction event_ which causes more _traffic jams_ in its spatial neighborhood. 
 
 ## Data Pre-processing Steps
 
