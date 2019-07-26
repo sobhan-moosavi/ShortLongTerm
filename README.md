@@ -1,21 +1,20 @@
 # Short and Long-term Pattern Discovery Over Large-Scale Geo-Spatiotemporal Data
 This repo contains all the codes and sample files for the "Short and Long-term Pattern Discovery Over Large-Scale Geo-Spatiotemporal Data" paper 
 
-
 ## Short-term Pattern Discovery
 Short-term or propagation patterns are those which show the impact of geo-spatiotemporal entities/events on a sequential basis, where one entity can be propagated and cause other entities to happen. One example is a _rain_ event which causes a _traffic accident_, and the _accident_ causes _traffic congestion_. 
 
 ## Long-term Pattern Discovery
 Long-term or influential patters are those which show the impact of a temporally long geo-spatiotemporal entity on its spatial neighborhood. One example is a _major construction_ which causes more _traffic jams_ in its spatial neighborhood. 
 
+## Requirements 
+The only requirement is ```Python```, version 2.7 is recommended.
+
 ## Data Pre-processing Steps
 Prior to performing any pattern extraction on traffic and weather data (as examples of geo-spatiotemporal data), there are two main pre-processing steps: 
   * __Extracting Events/Entities__: The first step is to extract traffic and weather events/entities from the raw traffic and weather data, and create a dataset such as [Large-Scale Traffic and Weather Events Dataset](https://smoosavi.org/datasets/lstw). In ```short-term/0-CreateMixtureEventFile.py```, you see a variety of processes, and imprically driven thresholds and settings to extract each type of traffic or weather event/entity. 
   * __Removing Redundant Traffic Events__: The second step is to remove duplicated geo-spatiotemporal entities/events using ```short-term/1-RemoveRedundantTrafficEvents.py```. 
-
-## Requirements 
-The only requirement is ```Python```, version 2.7 is recommended. 
-
+ 
 ## How to Run
 * __Extracting Short-term Patterns__: there are multiple steps to extract short-term patterns as follows:
   * __Finding Child-Parent Relations__: Prior to building relation trees, we need to find child-parent relationship between each two geo-spatiotemporal entities. Use ```short-term/2-FindChildsParents.py``` to perform this step. 
@@ -31,7 +30,7 @@ The only requirement is ```Python```, version 2.7 is recommended.
 A large-scale dataset of traffic and weather event data is used as input. Check [here](https://smoosavi.org/datasets/lstw) for the latest version of such a dataset. The data comes in the form of a single CSV file. We use the same data as input to both short and long-term pattern discovery processes. 
 
 
-## Sample Results
+<!-- ## Sample Results -->
 
 
 ## Acknowledgments 
