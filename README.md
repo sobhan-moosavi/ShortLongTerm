@@ -26,11 +26,8 @@ Prior to performing any pattern extraction on traffic and weather data (as examp
 * __Extracting Long-term Patterns__:
   * __Preprocessing__: First we need to do some preprocessing over the data such as computing the duration of the events and modifying the type of the features accordingly. Use ```long-term/Process_steps/step1_preprocess.ipynb``` to perform this step.
   
-<<<<<<< HEAD
-  * __Extract long events__: The next step is finding the events which last longer than a threshold (300 minutes). After that, we merge the long events which happen to be in the same vicinity (radius of 14 miles). To do this step run ```long-term/Process_steps/step2_long_event_extraction.ipynb```.
-=======
+
   * __Extract long events__: The next step is finding the events that last longer than a threshold (300 minutes). After that, we merge the long events that happen to be in the same vicinity (radius of 14 miles). Run ```long-term/Process_steps/step2_long_event_extraction.ipynb``` for this step. 
->>>>>>> a53a28721fe4e7cb704b3f87524b55ca3e0b6db3
   
   * __Sort long events__: We have to separate the long traffic events from long weather events since we have to process them differently. Simply run ```long-term/Process_steps/step3_sort_long_event.ipynb``` for this purpose. 
   
