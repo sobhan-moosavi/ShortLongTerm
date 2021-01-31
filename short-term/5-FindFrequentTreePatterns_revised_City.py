@@ -96,8 +96,8 @@ path = '/users/PAS0536/osu9965/Traffic/EventProcessing/'
 
 # load pickle files related to tree-encoding for all zip-codes
 start = time.time()
-zipToEncoding = cPickle.load(file(path + 'Data/Data_SlowCong/zipToEncoding.pkl', 'r'))
-labelToCode   = cPickle.load(file(path + 'Data/Data_SlowCong/labelToCode.pkl', 'r'))
+zipToEncoding = cPickle.load(file(path + 'Data/zipToEncoding.pkl', 'r'))
+labelToCode   = cPickle.load(file(path + 'Data/labelToCode.pkl', 'r'))
 
 # load zip to city
 zipToCity = readCsvToDict('Data/zip_to_CityState.csv')
