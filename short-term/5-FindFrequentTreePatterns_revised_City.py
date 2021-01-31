@@ -116,7 +116,7 @@ for z in zipToEncoding:
 print 'All datasets are loaded for %d zip codes in %.1f sec!' % (len(zipToEncoding), time.time()-start)
 
 # the output file for frequent tree patterns
-file_name = 'frequent_trees_City_MSF-{}_MTL-{}_SlowCong.csv'.format(min_sup_fixed, max_tree_length)
+file_name = 'frequent_trees_City_MSF-{}_MTL-{}.csv'.format(min_sup_fixed, max_tree_length)
 w = open(path + file_name, 'w')
 w.write('City,Pattern,Support\n')
 w.close()
@@ -130,7 +130,7 @@ start = time.time()
 st_count = 0
 Total, Passed = 0,0
 
-writer = open(path + 'State_TreeCount_CityBased_SlowCong.csv', 'w')
+writer = open(path + 'State_TreeCount_CityBased.csv', 'w')
 writer.write('State,Count\n')
 state_total_pattern = {}
 
