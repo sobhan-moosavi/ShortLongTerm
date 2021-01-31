@@ -151,7 +151,7 @@ for s in cityToZips:
         cnt += 1
         #if cnt ==250:  break
     
-    if len(encodingSet) < 50: continue   #trivial cases which we filter for the sake of speed up in the process! this will discriminate 10% of the data, which is negligible!
+    if len(encodingSet) < 50: continue   #trivial cases which we filter for the sake of speed up in the process! this will discard 10% of the data, which is negligible!
     #print (str(st_count), 'City:', s, '#Encodings:', len(encodingSet))  
     
     st_count += 1
